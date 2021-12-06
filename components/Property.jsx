@@ -42,10 +42,10 @@ const Property = ({
       <Box w="full">
         <Flex paddingTop="2" alignItems="center" justifyContent="space-between">
           <Flex alignItems="center">
-            <Box paddingRight="3" color="blue.800">
+            <Box paddingRight="3" color="green.400">
               {isVerified && <GoVerified />}
             </Box>
-            <Text fontWeight="bold" fontSize="lg">
+            <Text fontWeight="bold" fontSize="lg" color="blue.800">
               AED {millify(price)}
               {rentFrequency && `/${rentFrequency}`}
             </Text>
